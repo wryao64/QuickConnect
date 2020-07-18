@@ -1,0 +1,25 @@
+#nav-bar {
+    background: #E1921E;
+    bottom: 0;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 10;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+
+}
+li {
+    padding: 0 1.6rem;
+}
+
+.icons {
+    height: 50px;
+    justify-content: space-between;
+
+}

@@ -1,0 +1,38 @@
+#icon{
+    float: left;
+    vertical-align: auto;
+    
+}
+
+#test {
+    background-color: aqua;
+}
+
+h1{
+    text-align: center;
+}
+
+/* #header {
+    background-color: #E1921E;
+} */
+
+#top {
+    border-bottom: solid 2px royalblue;
+    width: 100vw;
+}
+
+#textfield {
+    background-color: white;
+    border-color: white;
+    box-shadow: none;
+    margin-top: 0px;
+    width: 250px;
+}
+
+#grid2 {
+    background-color: blue;
+}
+
+/* .status-card {
+    background: #ffd5ad !important;
+} */
