@@ -10,3 +10,10 @@
 #tasks {
     text-align: left;
 }
+
+#addicon {
+    width: 50px;
+    position: absolute;
+    top: 600px;
+    left: 340px;
+}

@@ -4,8 +4,8 @@ import FriendCard from './FriendCard';
 import './Friends.css';
 
 const initialStateValue = [
-  { id: 0, name: "Jenny Tulls", status: "Happy" },
-  { id: 1, name: "Kimmy Hed", status: "Sad" }
+  { id: 0, name: "Sandy Cheeks", status: "Yeehaw", image: "/sandycheeks.jfif", statusimage: "/runningshoe.png"},
+  { id: 1, name: "Eugene Krabs", status: "Sad", image: "/mrkrabs.png", statusimage: "/hungry.jfif" }
 ];
 
 export default function Friends() {

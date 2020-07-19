@@ -20,7 +20,8 @@ const SmallAvatar = withStyles((theme) => ({
   },
 }))(Avatar);
 
-export default function UserIcon() {
+export default function UserIcon(props) {
+  const { image, status } = props;
   const classes = useStyles();
 
   return (
@@ -31,9 +32,9 @@ export default function UserIcon() {
       horizontal: 'right',
       }}
       
-      badgeContent={<SmallAvatar alt="Remy Sharp" src="/spongebob.png" />}
+      badgeContent={<SmallAvatar alt="User" src={status} />}
     >
-      <Avatar alt="SpongeBob" src="/spongebob.png" className={classes.large} />
+      <Avatar alt="SpongeBob" src={image} className={classes.large} />
     </Badge>
   );
 }
