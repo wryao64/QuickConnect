@@ -11,7 +11,7 @@ import NavBar from './components/navigation/NavBar';
 import Settings from './components/settings/Settings';
 import Message from './components/messaging/Message';
 
-const info = { id: 0, name: "Johnny", status: "Mood" };
+const info = { id: 0, name: "Eugene Krabs", status: "Mood" };
 
 function App() {
   return (

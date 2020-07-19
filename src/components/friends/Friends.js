@@ -5,7 +5,7 @@ import './Friends.css';
 
 const initialStateValue = [
   { id: 0, name: "Sandy Cheeks", status: "Yeehaw", image: "/sandycheeks.jfif", statusimage: "/runningshoe.png"},
-  { id: 1, name: "Eugene Krabs", status: "Sad", image: "/mrkrabs.png", statusimage: "/hungry.jfif" }
+  { id: 1, name: "Eugene Krabs", status: "Hungry", image: "/mrkrabs.png", statusimage: "/hungry.jfif" }
 ];
 
 export default function Friends() {
