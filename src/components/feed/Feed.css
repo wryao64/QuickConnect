@@ -21,12 +21,12 @@ h1{
     width: 100vw;
 }
 
-#textfield {
+#statustextfield {
     background-color: white;
     border-color: white;
     box-shadow: none;
     margin-top: 0px;
-    width: 250px;
+    width: 210px;
 }
 
 #grid2 {
@@ -36,3 +36,17 @@ h1{
 /* .status-card {
     background: #ffd5ad !important;
 } */
+.status-box {
+    text-align: left;
+    /* position: relative; */
+}
+
+.status-name h1 {
+    text-align: left;
+    position: relative;
+}
+
+.status-status {
+    text-align: left;
+    /* position: relative; */
+}

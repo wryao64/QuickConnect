@@ -11,7 +11,7 @@ export default function FriendCard(props) {
       <CardContent>
         <Grid container>
           <Grid item xs={3}>
-            <UserIcon/>
+            <UserIcon image={friendInfo.image} status={friendInfo.statusimage}/>
           </Grid>
 
           <Grid item xs={9}>
